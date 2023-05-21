@@ -14,6 +14,8 @@ const sequelize = new Sequelize({
   'dialect': 'mariadb',
 });
 
+console.log('Deployment updated');
+
 sequelize.authenticate().then(() => {
   console.log('Sequelize success');
 }).catch(() => {
