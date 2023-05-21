@@ -14,7 +14,7 @@ const sequelize = new Sequelize({
   'dialect': 'mariadb',
 });
 
-console.log('Watchtower updated this');
+console.log('Watchtower updated this 2');
 
 sequelize.authenticate().then(() => {
   console.log('Sequelize success');
